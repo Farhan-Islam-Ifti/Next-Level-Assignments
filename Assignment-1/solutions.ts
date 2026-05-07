@@ -91,16 +91,3 @@ function getIntersection(num1 : number[], num2 : number[]):number[]{
 
 
 
-/*
-Incase of slutions of the problems I tried to do on my own.At first i wrote basic solutions and then proceeded to optimize it as much as possible.
-Only help i took was when i was working with suppose Array i searched for array methods and from documentations i took whatever method i though was 
-suitable for each problems.
-
-Now for blog part, this actually took almost twice the time than the problems itself as i was kind of obsessed with making the blogs look perfect.
-I did take help from websites for example before writing the blog on "OOP" concepts i rewatched videos and also read blogs on oop and also i needed formal definitions for the topics so
-i also read theories from websites like geekforgeeks and then i started writing the blogs.
-
-
-
-*/
-
