@@ -20,4 +20,4 @@ After understanding the topics, I started writing the blogs in my own way. I tri
 
 Overall, this assignment helped me practice both TypeScript problem solving and technical writing. The coding problems helped me understand functions, arrays, generics, interfaces, and classes. The blog part helped me revise important concepts like OOP and TypeScript features in a more theoretical way.
 
-## Important Note: I did use but for adding proper punctuations and indentation for the blogs and this readme. I hope this doesnt break the rule as all the contents were completely written by me.(And it took more time and effort that i expected.)
+## Important Note: I did use AI but for adding proper punctuations and indentation for the blogs and this readme. I hope this doesnt break the rule as all the contents were completely written by me.(And it took more time and effort that i expected.)
