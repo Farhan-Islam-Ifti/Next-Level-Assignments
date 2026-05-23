@@ -91,7 +91,7 @@ issuesRouter.get(
 issuesRouter.get(
   "/:id",
   asyncHandler(async (req, res) => {
-    const id = parsePositiveId(req.params.id);
+    const id = parsePositiveId(String(req.params.id));
 
     const issue = await issuesService.getSingleIssue(id);
 
@@ -107,7 +107,7 @@ issuesRouter.patch(
       throw new AppError(StatusCodes.UNAUTHORIZED, "Missing authorization token");
     }
 
-    const id = parsePositiveId(req.params.id);
+    const id = parsePositiveId(String(req.params.id));
     const payload: UpdateIssueRequestBody = {};
 
     if (req.body.title !== undefined) {
@@ -137,7 +137,7 @@ issuesRouter.delete(
   requireAuth,
   requireRole("maintainer"),
   asyncHandler(async (req, res) => {
-    const id = parsePositiveId(req.params.id);
+    const id = parsePositiveId(String(req.params.id));
 
     await issuesService.deleteIssue(id);
 
